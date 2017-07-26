@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
-        <element label="New Field 1 " mandatory="true" max_length="40" name="new_filed_1" type="integer"/>
+        <element label="New Field 1" mandatory="true" max_length="40" name="new_filed_1" type="integer"/>
         <element label="When needed" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
         <element label="Requested For" mandatory="true" max_length="32" name="u_requestedfor" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="HR" label="Request Type" mandatory="true" max_length="40" name="u_requesttype_3" type="string">
